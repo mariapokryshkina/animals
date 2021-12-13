@@ -4,7 +4,7 @@ This app allows to search animals and provdes each animal with an individual pic
 
 Enjoy!
 
-![Screenshot](Screenshot 1.png)
-![Screenshot](Screenshot 2.png)
-![Screenshot](Screenshot 3.png)
-![Screenshot](Screenshot 4.png)
+![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot2.png)
+![Screenshot](Screenshot3.png)
+![Screenshot](Screenshot4.png)
