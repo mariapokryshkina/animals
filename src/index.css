@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header,
+main footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+}
+
+main,
+footer {
+  text-align: center;
+}
+
+header li {
+  list-style: none;
+  align-items: flex-end;
+  justify-content: right;
+  display: inline;
+  padding: 5px;
+}
+
+h1 {
+  color: white;
+}
+
+.AnimalsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.card {
+  background-color: snow;
+  box-shadow: 0 0 5px rgb(121, 121, 121);
+  width: 200px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 1rem;
+  text-transform: capitalize;
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+.card:hover {
+  background-color: snow;
+  box-shadow: 0 0 20px rgb(121, 121, 121);
+  border-radius: 5px;
+  display: inline-block;
+  margin: 1rem;
+  text-transform: capitalize;
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+.card h2 .card a {
+  margin: 1rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1rem;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  display: block;
+}
+
+.card a {
+  color: black;
+}
+
+input {
+  position: absolute;
+  top: 150px;
+  right: 570px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5%;
+}
+
+p {
+  padding: 5rem;
+}
+
+home,
+about {
+  width: 100vw;
+  height: 84vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animalSingleWrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animalSingle {
+  height: 80vh;
+  margin: 1vh;
+  padding: 1vh 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.animalSingle img {
+  max-height: 74vh;
+  max-width: 92vw;
+}
+.animalSingle p {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+
+.animalSingle button {
+  position: absolute;
+  right: 360px;
+  top: -20px;
+  width: 200px;
+  height: 50px;
+  color: whitesmoke;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3%;
+  margin: 5rem;
+}
